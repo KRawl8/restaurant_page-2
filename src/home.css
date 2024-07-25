@@ -1,0 +1,48 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#content {
+    max-height: 85vh;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+img {    
+    width: 100%;
+    height: 85vh;
+    object-fit: cover;
+}
+
+#home-content {
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#home-content article, ul {
+    font-size: 24px;
+}
+
+article {
+    border: 5px solid rgb(196, 196, 196);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#opening-times {
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    margin-top: -40px;
+    padding-bottom: 20px;
+}
+
+#times-list {
+    list-style: none;
+}
