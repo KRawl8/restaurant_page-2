@@ -4,7 +4,7 @@ const homePage = () => {
   let content = document.querySelector("#content");
 
   let image = document.createElement("img");
-  image.src = "../src/img/food.avif";
+  image.src = "..src/img/food.avif";
   image.alt = "Picture of food";
 
   let mainContent = document.createElement("div");
