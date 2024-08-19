@@ -1,4 +1,8 @@
 import "./menu.css";
+import Food1 from "../src/img/pizza.jpg";
+import Food2 from "../src/img/pasta.jpg";
+import Food3 from "../src/img/burger.jpg";
+import Food4 from "../src/img/chicken-tikka.avif";
 
 const menuPage = () => {
   let content = document.querySelector("#content");
@@ -9,7 +13,7 @@ const menuPage = () => {
   let food1 = document.createElement("div");
   food1.id = "food-1";
   let foodImage1 = document.createElement("img");
-  foodImage1.src = "../src/img/pizza.jpg";
+  foodImage1.src = Food1;
   foodImage1.id = "food-image-1";
   let foodTitle1 = document.createElement("h3");
   foodTitle1.textContent = "Pizza";
@@ -21,7 +25,7 @@ const menuPage = () => {
   let food2 = document.createElement("div");
   food2.id = "food-2";
   let foodImage2 = document.createElement("img");
-  foodImage2.src = "../src/img/pasta.jpg";
+  foodImage2.src = Food2;
   foodImage2.id = "food-image-2";
   let foodTitle2 = document.createElement("h3");
   foodTitle2.textContent = "Pasta";
@@ -33,7 +37,7 @@ const menuPage = () => {
   let food3 = document.createElement("div");
   food3.id = "food-3";
   let foodImage3 = document.createElement("img");
-  foodImage3.src = "../src/img/burger.jpg";
+  foodImage3.src = Food3;
   foodImage3.id = "food-image-3";
   let foodTitle3 = document.createElement("h3");
   foodTitle3.textContent = "Burger";
@@ -45,7 +49,7 @@ const menuPage = () => {
   let food4 = document.createElement("div");
   food4.id = "food-4";
   let foodImage4 = document.createElement("img");
-  foodImage4.src = "../src/img/chicken-tikka.avif";
+  foodImage4.src = Food4;
   foodImage4.id = "food-image-4";
   let foodTitle4 = document.createElement("h3");
   foodTitle4.textContent = "Chicken Tikka Masala";

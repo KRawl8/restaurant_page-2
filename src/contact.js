@@ -1,4 +1,6 @@
 import "./contact.css";
+import Contact1 from "../src/img/email.png";
+import Contact2 from "../src/img/phone.png";
 
 let contactPage = () => {
   let content = document.querySelector("#content");
@@ -17,7 +19,7 @@ let contactPage = () => {
   leftContact.className = "contact-item";
   let icon1 = document.createElement("img");
   icon1.id = "email-icon";
-  icon1.src = "../src/img/email.png";
+  icon1.src = Contact1;
   let text1 = document.createElement("p");
   text1.className = "contact-text";
   text1.textContent = "Email Us: restaurant.two@email.com";
@@ -27,7 +29,7 @@ let contactPage = () => {
   rightContact.className = "contact-item";
   let icon2 = document.createElement("img");
   icon2.id = "phone-icon";
-  icon2.src = "../src/img/phone.png";
+  icon2.src = Contact2;
   let text2 = document.createElement("p");
   text2.className = "contact-text";
   text2.textContent = "Phone Us: 111-111-1111";
